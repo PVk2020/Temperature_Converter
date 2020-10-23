@@ -1,0 +1,27 @@
+.header {
+  color: red;
+  font-size: 1px;
+}
+.btn-container {
+  text-decoration: underline;
+}
+.neons h1 {
+  font-size: 2rem;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+ }
+ 
+ @-webkit-keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #e704fc, 0 0 20px #fc04fc, 0 0 30px #ff04ff, 0 0 40px #f801e4, 0 0 50px #fa00fa, 0 0 60px #ff00ff, 0 0 70px #e101ff, 0 0 90px #ff05ea;
+  }
+  
+  to {
+     color: rgb(255, 148, 8);
+    text-shadow: 0 0 20px #fa04e5, 0 0 30px #f503e1, 0 0 40px #fa05fa, 0 0 50px #fd06f1, 0 0 60px #ff01f2, 0 0 70px #f702ff, 0 0 80px #ff02f2, 0 1 90px #fd04f1;
+  }
+ }
